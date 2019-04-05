@@ -23,6 +23,11 @@ AppState _removeItem(AppState state, RemoveItemAction action) {
       .toList());
 }
 
-CartItem getIncreasedQuantityItem(CartItem item) => item.copyWith(quantity: item.quantity + 1);
+CartItem getIncreasedQuantityItem(CartItem item) {
+  return item.copyWith(quantity: item.quantity + 1);
+}
 
-CartItem getDecreasedQuantityItem(CartItem item) => item.copyWith(quantity: item.quantity - 1);
+CartItem getDecreasedQuantityItem(CartItem item) {
+  if (item.quantity <= 0) return item;
+  return item.copyWith(quantity: item.quantity - 1);
+}
