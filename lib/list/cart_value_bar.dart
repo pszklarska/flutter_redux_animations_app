@@ -53,7 +53,9 @@ class _CartValueBarState extends State<CartValueBar>
               padding: const EdgeInsets.symmetric(
                   horizontal: 16.0),
               child: Text(
-                'Cart value ${_getCartValue()} zł',
+                widget.cartValue != 0
+                    ? 'Cart value ${_getCartValue()} zł'
+                    : '',
               ),
             ),
           ],
