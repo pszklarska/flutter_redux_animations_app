@@ -1,16 +1,7 @@
 # flutter_redux_animations
 
-A new Flutter project.
+This is sample application for making animations with Redux. You can check blogpost for this repository here: [How to create animations in Flutter with Redux?](https://medium.com/@pszklarska/how-to-create-animations-in-flutter-with-redux-e04ec70afbc9)
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![Application screenshot](screenshots/main.gif)
